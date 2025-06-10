@@ -71,7 +71,7 @@ spec:
     name: contour
     namespace: tanzu-system-ingress
   hostnames:
-  - "local.projectcontour.io"
+  - "kuard-gw.tanzu.lab"
   rules:
   - matches:
     - path:
